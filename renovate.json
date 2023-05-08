@@ -3,5 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "lockFileMaintenance": true
+  "lockFileMaintenance": true,
+  "rangeStrategy": "update-lockfile",
 }
