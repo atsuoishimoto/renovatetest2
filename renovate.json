@@ -9,4 +9,7 @@
     "automerge": true,
     "ignoreTests": true
   },
+  "docker": {
+    "enabled": false
+  }
 }
