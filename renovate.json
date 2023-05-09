@@ -5,7 +5,7 @@
   ],
   "lockFileMaintenance": {
     "enabled": false,
-    "schedule": "* * * * *",
+    "schedule": "* 11 * * *",
   },
   "rangeStrategy": "update-lockfile",
 }
