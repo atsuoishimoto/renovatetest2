@@ -4,8 +4,7 @@
     "config:base"
   ],
   "lockFileMaintenance": {
-    "enabled": false,
-    "schedule": "* 11 * * *",
+    "enabled": true,
+    "schedule": "* * * * *",
   },
-  "rangeStrategy": "update-lockfile",
 }
