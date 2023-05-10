@@ -18,7 +18,7 @@
         "^text.txt$"
       ],
       "matchStrings": [
-        "org\\.opencontainers\\.image\\.version:\\s+(\\s|\"|')?(?<currentValue>.+?)(\\s|\"|'|$)"
+        "PYTHONPATH=(?<currentValue>.+?)(\\s|\"|'|$)"
       ],
       "depNameTemplate": "python/cpython",
       "datasourceTemplate": "github-tags"
