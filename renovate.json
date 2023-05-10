@@ -4,12 +4,24 @@
     "config:base"
   ],
   "lockFileMaintenance": {
-    "enabled": true,
+    "enabled": false,
     "schedule": "* * * * *",
     "automerge": true,
     "ignoreTests": true
   },
   "docker": {
     "enabled": false
-  }
+  },
+  "regexManagers": [
+     {
+      "fileMatch": [
+        "^text.txt$"
+      ],
+      "matchStrings": [
+        "PYTHON_VERSION=(?<currentValue>.+?)$)",
+      ],
+      "depNameTemplate": "python/cpython",
+      "datasourceTemplate": "github-tags"
+    }
+  ]
 }
