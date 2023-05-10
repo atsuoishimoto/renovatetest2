@@ -21,7 +21,7 @@
         "^PYTHON_VERSION=(?<currentValue>.+?)$"
       ],
       "depNameTemplate": "actions/python-versions",
-      "datasourceTemplate": "github-release",
+      "datasourceTemplate": "github-tag",
       "versioningTemplate": "semver-coerced"
     }
   ]
