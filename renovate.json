@@ -22,7 +22,7 @@
       ],
       "depNameTemplate": "python/cpython",
       "datasourceTemplate": "github-tags",
-      "schedule": "* * * * *",
+      "extractVersionTemplate": "^(?<version>\\d+\.\\d+).*$"
     }
   ]
 }
