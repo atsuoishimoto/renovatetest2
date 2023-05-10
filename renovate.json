@@ -15,7 +15,7 @@
   "regexManagers": [
      {
       "fileMatch": [
-        "^text.txt$"
+        "^test.txt$"
       ],
       "matchStrings": [
         "PYTHON_VERSION=(?<currentValue>.+?)$"
