@@ -31,8 +31,8 @@
       "matchStrings": [
         "^PYTHON_VERSION=(?<currentValue>.+?)$"
       ],
-      "depNameTemplate": "actions/python-versions",
-      "datasourceTemplate": "github-release",
+      "depNameTemplate": "python/cpython",
+      "datasourceTemplate": "github-tags"
     }
 
   ]
