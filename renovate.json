@@ -21,7 +21,8 @@
         "^PYTHON_VERSION=(?<currentValue>.+?)$"
       ],
       "depNameTemplate": "python/cpython",
-      "datasourceTemplate": "github-tags"
+      "datasourceTemplate": "github-tags",
+      "schedule": "* * * * *",
     }
   ]
 }
