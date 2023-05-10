@@ -14,14 +14,14 @@
   },
   "regexManagers": [
      {
-      "fileMatch": [
-        "^test.txt$"
-      ],
-      "matchStrings": [
-        "^PYTHON_VERSION=(?<currentValue>.+?)$"
-      ],
-      "depNameTemplate": "python/cpython",
-      "datasourceTemplate": "github-tags"
+       "fileMatch": [
+         "^test.txt$"
+       ],
+       "matchStrings": [
+         "^PYTHON_VERSION=(?<currentValue>.+?)"
+        ],
+        "depNameTemplate": "python/cpython",
+        "datasourceTemplate": "github-tags"
     }
 
   ]
