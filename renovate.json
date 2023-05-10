@@ -14,15 +14,26 @@
   },
   "regexManagers": [
      {
+       "fileMatch": [
+        "^test2.txt$"
+       ],
+       "matchStrings": [
+         "^PYTHON_VERSION=(?<currentValue>.+?)$"
+       ],
+       "depNameTemplate": "python/cpython",
+       "datasourceTemplate": "github-tags",
+       "extractVersionTemplate": "^(?<version>\\d+\.\\d+).*$"
+     },
+     {
       "fileMatch": [
         "^test.txt$"
       ],
       "matchStrings": [
         "^PYTHON_VERSION=(?<currentValue>.+?)$"
       ],
-      "depNameTemplate": "python/cpython",
-      "datasourceTemplate": "github-tags",
-      "extractVersionTemplate": "^(?<version>\\d+\.\\d+).*$"
+      "depNameTemplate": "actions/python-versions",
+      "datasourceTemplate": "github-release",
     }
+
   ]
 }
