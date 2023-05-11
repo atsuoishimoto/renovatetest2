@@ -3,6 +3,12 @@
   "extends": [
     "config:base"
   ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "schedule": "* 0 13 * *",
+    }
+  ],
   "lockFileMaintenance": {
     "enabled": false,
     "schedule": "* * * * *",
